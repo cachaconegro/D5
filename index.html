@@ -103,11 +103,41 @@
 
      <!--zona de informacion -->
        <div class="col 12 center">
-          <h4>fotos</h4> 
+
+
               <div class="row">
-                <div class="col s6"><img class="materialboxed" width="250" src="images/imagen 1/2.jpg"></div>
+                <div class="col s12 m4">
+                 <div class="card">
+                  <h2 class="center red-text"><i class="material-icons">play_circle_filled</i></h2>
+                   <div class="video-container">
+                    <iframe width="200" height="315" src="https://www.youtube.com/embed/-CVJyuXRpIc" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-content">
+                   <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">This is a link</a></p>
+                   </div>
+                   <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+              </div>
+            </div>
                 
-                <div class="col s6"><img class="materialboxed" width="250" src="images/imagen 1/1.jpg"></div>                                                                                                      
+
+
+                 <div id="del-countdown" class="col s4">
+                    <h1>Convencion cali</h1>
+                    <div id="clock"></div>
+                    <div id="units">
+                        <span>Dias</span>
+                        <span>Horas</span>
+                        <span>Minutos</span>
+                        <span>Segundos</span>
+                    </div>
+                </div>
+
+
+                <div class="col s4"><img class="materialboxed" width="250" src="images/imagen 1/1.jpg"></div>                                                                                                      
           </div>       
         </div>
 
@@ -172,10 +202,6 @@
                 <div class="video-container">
                   <iframe width="200" height="315" src="https://www.youtube.com/embed/Zf_vcHsy60E" frameborder="0" allowfullscreen></iframe>
                 </div>
-
-
-
-
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
                   <p><a href="#">This is a link</a></p>
@@ -194,7 +220,6 @@
           <div class="icon-block">
             <h2 class="center red-text"><i class="material-icons">input</i></h2>
             <h5 class="center">Easy to work with</h5>
-
              <div class="carousel carousel-slider">
                 <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
                 <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
@@ -212,10 +237,6 @@
                 <div class="video-container">
                   <iframe width="200" height="315" src="https://www.youtube.com/embed/-CVJyuXRpIc" frameborder="0" allowfullscreen></iframe>
                 </div>
-
-
-
-
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
                   <p><a href="#">This is a link</a></p>
@@ -327,6 +348,7 @@
 
 
   <!--  Scripts-->
+  <script src="js/countdown.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>   
